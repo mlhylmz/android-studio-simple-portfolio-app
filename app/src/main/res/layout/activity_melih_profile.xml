@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Mustafa Melih Yılmaz"
         android:textColor="#FFFFFF"
-        android:layout_gravity="center | top"
+        android:layout_gravity="center|top"
         android:textSize="20dp"
         android:layout_marginTop="50dp"/>
 
