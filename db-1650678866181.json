@@ -1,0 +1,22 @@
+{
+  "names": [
+    {
+      "id": 1,
+      "name": "firat"
+    },
+    {
+      "id": 2,
+      "name": "melih"
+    }
+  ],
+  "ages": [
+    {
+      "id": 1,
+      "ageNumber": "24"
+    },
+    {
+      "id": 2,
+      "ageNumber": "20"
+    }
+  ]
+}

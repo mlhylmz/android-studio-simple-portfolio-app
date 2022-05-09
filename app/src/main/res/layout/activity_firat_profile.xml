@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center"
+    android:background="#144545"
+    tools:context=".FiratProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center|top"
+        app:srcCompat="@drawable/_617101317846" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fırat SADIKOĞLU"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center | top"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/firatProfilePersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Personal Informatıon"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/linkedin"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+        android:tag="https://www.linkedin.com/in/firatsadikoglu/"
+        android:onClick="openBrowser"
+        app:srcCompat="@drawable/linkedin" />
+
+    <ImageView
+        android:id="@+id/github"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="80dp"
+        android:tag="https://github.com/firatsadikoglu"
+        android:onClick="openBrowser"
+        app:srcCompat="@drawable/githun" />
+
+    <ImageView
+        android:id="@+id/maps"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/mapsicon" />
+
+
+</FrameLayout>

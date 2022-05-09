@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#565656"
+    tools:context=".ChoiceActivity">
+
+
+    <ImageView
+        android:id="@+id/firatPp"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/_617101317846"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/FiratTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firatPp"
+        android:layout_centerHorizontal="true"
+        android:text="Fırat SADIKOĞLU"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <ImageView
+        android:id="@+id/melihPp"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_below="@+id/FiratTV"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/linkedinpp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/MelihTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/melihPp"
+        android:layout_centerHorizontal="true"
+        android:text="Mustafa Melih YILMAZ"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <ImageView
+        android:id="@+id/umutPp"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_below="@+id/MelihTV"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/_43a5baa_8c1b_4fe7_9b25_ae6cda275076" />
+
+    <TextView
+        android:id="@+id/UmutTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/umutPp"
+        android:layout_centerHorizontal="true"
+        android:text="Umut YÜKSEL"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+</RelativeLayout>
